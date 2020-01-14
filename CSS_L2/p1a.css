@@ -1,0 +1,23 @@
+h1{
+  font-family: cursive;
+  text-align: center;
+}
+ p{
+   font-family: 'Yeon Sung', cursive;
+   font-style: italic;
+   font-weight: bold;
+ }
+
+ body{
+   font-size: 20px;
+   color: darkred;
+ }
+
+ #withid{
+   font-size: 2.0em
+ }
+
+ /* default font size is 16px
+ 1em = 16px
+ 2em = 32px
+ to create relation between font size of different elements use em */

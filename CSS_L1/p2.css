@@ -1,0 +1,21 @@
+body{
+  /* background-color: yellow; */
+  /* background: url("C:/Users/sagar/Documents/Web Development/HTML_L1/tvd.jpg"); */
+  background: url(https://wallpapercave.com/wp/d8wldxe.jpg);
+}
+
+p{
+  color: red;
+}
+
+div{
+  background-color: blue;
+  border-color: red;
+  border-width: 4px;
+  border-style: double;
+}
+
+span{
+  background: green;
+  color: white;
+}

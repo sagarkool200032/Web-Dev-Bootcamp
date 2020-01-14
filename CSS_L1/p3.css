@@ -1,0 +1,36 @@
+/* class is used for multi elements and id is used for single element */
+/* to access each div use . */
+.first{
+  color:green;
+}
+.second{
+  color:red;
+}
+
+/* #idname for id */
+
+#single{
+  color:blue;
+  text-decoration: line-through;
+}
+
+/* * is used for every elements in the page execept the one with id */
+
+*{
+  /* background: black; */
+  /* color: white; */
+}
+
+h3+ul{
+  border: 8px dotted red;
+}
+
+li a {
+  color: brown;
+}
+
+li a[href="https://www.facebook.com"]
+{
+  color: green;
+  border: 1px solid blue;
+}

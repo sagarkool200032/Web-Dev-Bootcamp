@@ -1,0 +1,71 @@
+img{
+  border: 4px solid white;
+  display: block;
+  margin: auto;
+  width: 35%;
+}
+
+/* div{
+  border: 8px dotted white;
+} */
+
+h1{
+  text-align: center;
+  font-size: 40px;
+
+}
+h6{
+  text-align: center;
+  font-size: 1.0em;
+}
+h3{
+  text-align: center;
+  font-size: 2.0em;
+}
+
+#line{
+  text-align: center;
+}
+#info{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
+}
+
+font{
+  font-family: 'Yeon Sung', cursive;
+}
+
+p{
+  text-align: center;
+}
+
+#members{
+  border: 4px solid black;
+  width: 10%;
+  margin: auto;
+  text-align: center;
+}
+ #girls{
+  border: 4px solid black;
+  width: 10%;
+  margin: auto;
+  text-align: center;
+
+}
+
+a{
+  color: darkred;
+  border: 2px solid red;
+  font-size: 20px;
+}
+
+#family{
+  border: 4px solid black;
+  width: 12%;
+  margin: auto;
+
+}
+/* body{
+  color: white;
+} */

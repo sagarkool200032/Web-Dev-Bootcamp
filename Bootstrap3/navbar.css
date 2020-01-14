@@ -1,0 +1,27 @@
+body{
+  padding-top : 130px;
+  color: white;
+  background-color: black;
+}
+
+#navi{
+  background-color: #310b59;
+  font-weight: bold;
+  font-size: 20px;
+  border: 16px solid #310b59;
+  color: white;
+
+}
+
+.jumbotron{
+  color: #310b59;
+  border: 15px solid #310b59;
+  width: 60%;
+  margin: auto;
+  border-radius: 3000px;
+}
+
+#header{
+  font-size: 25px;
+  color: white;
+}
