@@ -19,8 +19,6 @@ def add_topic():
     t.save()
     return t
 
-
-
 def populate(N=5):
     '''
     Create N Entries of Dates Accessed
