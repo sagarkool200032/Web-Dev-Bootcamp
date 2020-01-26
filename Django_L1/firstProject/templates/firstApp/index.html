@@ -3,17 +3,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{% static "css/index.css" %}">
-    <title>HomePage</title>
+    <link rel="stylesheet" href="{% static "css/master.css" %}">
+    <title>Django Level Two</title>
   </head>
   <body>
+    <h1>Welcome To HomePage</h1>
+    <h1>Here are your Access Records</h1>
 
-    <h1>This is HomePage of firstApp</h1>
+    <div class="django">
+      {% if accessRecords%}
+      <table border="1">
+        <thead>
+          <th>Site Name</th>
+          <th>Date Accessed</th>
+        </thead>
 
-      <!-- template tag -->
-      {{insert_me}}
+        {% for acc in accessRecords %}
+        <tr>
+          <td>{{acc.name}}</td>
+          <td>{{acc.date}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+      <p>no access record found</p>
+      {% endif %}
 
-      <img src="{% static "images/damon.jpg" %}" alt="Not Found">
+    </div>
 
   </body>
 </html>
