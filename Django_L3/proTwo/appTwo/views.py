@@ -12,10 +12,10 @@ def help(request):
     newDict = {"namePage":"This is the HELP Page"}
     return render(request,"appTwo/help.html",context=newDict)
 
-def showData(request):
-    datalist = User.objects.order_by("fName")
-    dataDict = {"containData" : datalist}
-    return render(request,"appTwo/data.html",context = dataDict)
+# def showData(request):
+#     datalist = User.objects.order_by("fName")
+#     dataDict = {"containData" : datalist}
+#     return render(request,"appTwo/data.html",context = dataDict)
 
 def users(request):
     # datalist = User.objects.order_by("fName")
